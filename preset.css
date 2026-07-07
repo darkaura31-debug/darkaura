@@ -1,0 +1,600 @@
+/* ===================================================
+   DARKAURA
+
+   File    : preset.css
+   Author  : Diyorbek
+   Version : 2.0
+   Theme   : Dark Purple
+   Stack   : HTML5 | CSS3
+
+   Description:
+   Styles for preset.html
+
+=================================================== */
+
+
+/* ===================================================
+   RESET
+=================================================== */
+
+*{
+
+    margin:0;
+
+    padding:0;
+
+    box-sizing:border-box;
+
+}
+
+html{
+
+    scroll-behavior:smooth;
+
+}
+
+body{
+
+    font-family:"Space Grotesk",sans-serif;
+
+    background:#07070b;
+
+    color:#fff;
+
+    overflow-x:hidden;
+
+}
+
+
+/* ===================================================
+   HEADER
+=================================================== */
+
+.header{
+
+    display:flex;
+
+    align-items:center;
+
+    justify-content:space-between;
+
+    width:100%;
+
+    height:80px;
+
+    padding:0 22px;
+
+    position:sticky;
+
+    top:0;
+
+    z-index:999;
+
+    background:#0a0a10;
+
+    border-bottom:1px solid rgba(255,255,255,.05);
+
+}
+
+
+/* ===================================================
+   LOGO
+=================================================== */
+
+.logo{
+
+    display:flex;
+
+    align-items:center;
+
+    gap:14px;
+
+    text-decoration:none;
+
+}
+
+.logo img{
+
+    width:56px;
+
+    height:56px;
+
+    border-radius:50%;
+
+    box-shadow:0 0 25px #8b5cf6;
+
+}
+
+.logo-text h2{
+
+    color:#fff;
+
+    font-size:24px;
+
+    font-weight:700;
+
+}
+
+.logo-text span{
+
+    display:block;
+
+    margin-top:2px;
+
+    color:#9f6cff;
+
+    font-size:11px;
+
+    letter-spacing:5px;
+
+}
+
+
+/* ===================================================
+   PRESET SECTION
+=================================================== */
+
+.preset{
+
+    position:relative;
+
+    max-width:900px;
+
+    margin:0 auto;
+
+    padding:60px 20px 100px;
+
+}
+
+
+/* Purple Background Glow */
+
+.preset::before{
+
+    content:"";
+
+    position:absolute;
+
+    top:150px;
+
+    left:50%;
+
+    transform:translateX(-50%);
+
+    width:320px;
+
+    height:320px;
+
+    background:#8b5cf6;
+
+    filter:blur(140px);
+
+    opacity:.12;
+
+    z-index:-1;
+
+}
+
+
+/* ===================================================
+   BACK BUTTON
+=================================================== */
+
+.back-btn{
+
+    display:inline-flex;
+
+    align-items:center;
+
+    gap:10px;
+
+    margin-bottom:40px;
+
+    color:#9f6cff;
+
+    text-decoration:none;
+
+    font-size:17px;
+
+    transition:.3s;
+
+}
+
+.back-btn:hover{
+
+    color:#fff;
+
+}
+
+.back-btn i{
+
+    transition:.3s;
+
+}
+
+.back-btn:hover i{
+
+    transform:translateX(-6px);
+
+}
+/* ===================================================
+   PRESET THUMBNAIL
+=================================================== */
+
+.preset-thumb{
+
+    display:block;
+
+    width:100%;
+
+    max-width:420px;
+
+    margin:0 auto;
+
+    border-radius:24px;
+
+    box-shadow:0 0 45px rgba(139,92,246,.25);
+
+}
+
+
+/* ===================================================
+   PRESET TITLE
+=================================================== */
+
+.preset h1{
+
+    margin-top:35px;
+
+    text-align:center;
+
+    font-size:42px;
+
+    font-weight:700;
+
+    color:#fff;
+
+}
+
+
+/* ===================================================
+   PRESET DESCRIPTION
+=================================================== */
+
+.preset p{
+
+    margin-top:15px;
+
+    text-align:center;
+
+    color:#9e9e9e;
+
+    font-size:18px;
+
+    line-height:1.7;
+
+}
+
+
+/* ===================================================
+   DOWNLOAD GRID
+=================================================== */
+
+.download-grid{
+
+    display:grid;
+
+    gap:18px;
+
+    margin-top:50px;
+
+}
+
+
+/* ===================================================
+   DOWNLOAD CARD
+=================================================== */
+
+.download-card{
+
+    display:flex;
+
+    align-items:center;
+
+    gap:20px;
+
+    padding:24px;
+
+    border:1px solid rgba(255,255,255,.05);
+
+    border-radius:20px;
+
+    background:#111116;
+
+    text-decoration:none;
+
+    color:#fff;
+
+    cursor:pointer;
+
+    transition:.35s;
+
+}
+
+
+/* Card Hover */
+
+.download-card:hover{
+
+    transform:translateY(-5px);
+
+    border-color:#8b5cf6;
+
+    box-shadow:0 0 30px rgba(139,92,246,.25);
+
+}
+
+
+/* Card Click */
+
+.download-card:active{
+
+    transform:scale(.98);
+
+}
+
+
+/* ===================================================
+   DOWNLOAD ICON
+=================================================== */
+
+.download-card i{
+
+    color:#8b5cf6;
+
+    font-size:30px;
+
+    transition:.35s;
+
+}
+
+
+/* Icon Hover */
+
+.download-card:hover i{
+
+    transform:scale(1.12);
+
+}
+
+
+/* ===================================================
+   DOWNLOAD TITLE
+=================================================== */
+
+.download-card h3{
+
+    font-size:20px;
+
+    font-weight:600;
+
+}
+/* ===================================================
+   FOOTER
+=================================================== */
+
+.footer{
+
+    margin-top:90px;
+
+    padding:35px 20px;
+
+    text-align:center;
+
+    background:#09090b;
+
+    border-top:1px solid rgba(255,255,255,.05);
+
+}
+
+.footer p{
+
+    color:#666;
+
+    font-size:14px;
+
+    letter-spacing:.5px;
+
+}
+
+
+/* ===================================================
+   RESPONSIVE
+=================================================== */
+
+@media (max-width:768px){
+
+    /* Header */
+
+    .header{
+
+        height:74px;
+
+        padding:0 18px;
+
+    }
+
+
+    /* Logo */
+
+    .logo img{
+
+        width:48px;
+
+        height:48px;
+
+    }
+
+    .logo-text h2{
+
+        font-size:20px;
+
+    }
+
+    .logo-text span{
+
+        font-size:9px;
+
+        letter-spacing:3px;
+
+    }
+
+
+    /* Preset */
+
+    .preset{
+
+        padding:50px 20px 80px;
+
+    }
+
+    .preset::before{
+
+        width:260px;
+
+        height:260px;
+
+        filter:blur(120px);
+
+    }
+
+
+    /* Thumbnail */
+
+    .preset-thumb{
+
+        max-width:100%;
+
+        border-radius:20px;
+
+    }
+
+
+    /* Title */
+
+    .preset h1{
+
+        font-size:34px;
+
+    }
+
+
+    /* Description */
+
+    .preset p{
+
+        font-size:17px;
+
+    }
+
+
+    /* Download Card */
+
+    .download-card{
+
+        padding:20px;
+
+        gap:16px;
+
+    }
+
+    .download-card i{
+
+        font-size:26px;
+
+    }
+
+    .download-card h3{
+
+        font-size:18px;
+
+    }
+
+}
+
+
+/* ===================================================
+   MOBILE
+=================================================== */
+
+@media (max-width:480px){
+
+    .preset{
+
+        padding:40px 18px 70px;
+
+    }
+
+    .back-btn{
+
+        font-size:16px;
+
+    }
+
+    .preset h1{
+
+        font-size:28px;
+
+        line-height:1.2;
+
+    }
+
+    .preset p{
+
+        font-size:16px;
+
+    }
+
+    .download-card{
+
+        padding:18px;
+
+        border-radius:18px;
+
+    }
+
+    .download-card i{
+
+        font-size:24px;
+
+    }
+
+    .download-card h3{
+
+        font-size:17px;
+
+    }
+
+    .footer{
+
+        padding:30px 18px;
+
+    }
+
+    .footer p{
+
+        font-size:13px;
+
+    }
+
+}
+
+
+/* ===================================================
+   END OF FILE
+
+   DARKAURA
+   preset.css
+   Version : 2.0
+
+=================================================== */
