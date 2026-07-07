@@ -1,0 +1,1362 @@
+<?xml version='1.0' encoding='UTF-8' ?><!--
+Created by Alight Motion (http://alightmotion.com)
+Exported: 2026-04-14 01:49 PM
+5.0.273.1028417 (1028417)
+e3844be (6-mar, 2026 14:44:40)
+-->
+<scene title="New Project" width="1080" height="1080" exportWidth="1080" exportHeight="1080" precompose="dynamicResolution" bgcolor="#ff000000" totalTime="19099" fps="60" modifiedTime="1776156578954" amver="1028417" ffver="106" am="com.alightcreative.motion/5.0.273.1028417" amplatform="android" retime="freeze" retimeAdaptFPS="false">
+  <media uri="content://media/external/video/media/1000016566" filename="New Project 366 [35E0E8F].mp4" title="New Project 366 [35E0E8F].mp4" type="video/mp4" duration="11456000" size="11518508" fps="0.60" orientation="0" infoUpdated="1775667878604" width="1080" height="1080" />
+  <media uri="content://media/external/video/media/1000013676" filename="Sukuna Twixtor - Jujutsu Kaisen S02 -.mp4" title="Sukuna Twixtor - Jujutsu Kaisen S02 -.mp4" type="video/mp4" duration="221960000" size="132017057" fps="0.60" orientation="0" infoUpdated="1775667878604" width="1920" height="1080" />
+  <media uri="content://media/external/video/media/1000016559" filename="match-cut.mp4" title="match-cut.mp4" type="video/mp4" duration="2346000" size="457339" fps="0.30" orientation="0" infoUpdated="1775667878604" width="720" height="1280" />
+  <media uri="content://media/external/video/media/1000016560" filename="match-cut (1).mp4" title="match-cut (1).mp4" type="video/mp4" duration="2346000" size="428452" fps="0.30" orientation="0" infoUpdated="1775667878604" width="720" height="1280" />
+  <media uri="content://media/external/video/media/1000013749" filename="GLOW BAR BLUE.MP4" title="GLOW BAR BLUE.MP4" type="video/mp4" duration="604000" size="74262" fps="0.30" orientation="0" infoUpdated="1775667878604" width="1280" height="720" />
+  <bookmark t="12391" />
+  <bookmark t="13008" />
+  <bookmark t="13591" />
+  <bookmark t="14091" />
+  <bookmark t="14675" />
+  <bookmark t="15191" />
+  <bookmark t="15708" />
+  <bookmark t="16291" />
+  <bookmark t="16791" />
+  <bookmark t="17358" />
+  <bookmark t="17891" />
+  <bookmark t="18458" />
+  <bookmark t="19091" />
+  <shape id="102402565" label="New Project 366 [35E0E8F].mp4" startTime="928" endTime="12399" fillType="media" fillVideo="content://media/external/video/media/1000016566" outTime="11456" mediaFillMode="fill" s=".rect">
+    <transform>
+      <location value="540.000000,540.000000,0.000000" />
+    </transform>
+    <property name="size" type="vec2" value="540.000000,540.000000" />
+  </shape>
+  <shape id="102402524" label="Sukuna Twixtor - Jujutsu Kaisen S02 -.mp4" startTime="12383" endTime="13015" fillType="media" fillVideo="content://media/external/video/media/1000013676" inTime="122600" outTime="123522" speed="1.459324" mediaFillMode="fill" s=".rect">
+    <transform>
+      <location>
+        <kf t="0.000000" v="170.500000,540.000000,0.000000" />
+        <kf t="1.000000" v="170.500000,540.000000,0.000000" e="cubicBezier 1.0 0.0 1.0 1.0" />
+        <kf t="0.566456" v="440.000000,541.699219,0.000000" e="cubicBezier 0.0 0.0 0.0 1.0" />
+      </location>
+      <scale>
+        <kf t="0.566456" v="1.779242,1.779242" e="cubicBezier 0.0 0.0 0.0 1.0" />
+        <kf t="0.000000" v="1.743518,1.743518" />
+        <kf t="0.012658" v="1.300926,1.300926" />
+        <kf t="1.000000" v="1.437037,1.437037" e="cubicBezier 1.0 0.0 1.0 1.0" />
+      </scale>
+    </transform>
+    <effect id="com.alightcreative.effects.tile" locallyApplied="true">
+      <property name="scale" type="float" value="1.000000" />
+      <property name="phase" type="float" value="0.000000" />
+      <property name="mirror" type="bool" value="true" />
+      <property name="vertoffs" type="bool" value="false" />
+      <property name="angle" type="float" value="0.000000" />
+    </effect>
+    <effect id="com.alightcreative.effects.motionblur4" locallyApplied="true">
+      <property name="tune" type="float">
+        <kf t="0.000000" v="4.000000" />
+        <kf t="0.530903" v="0.000000" e="cubicBezier 0.0 0.7292172 0.23492134 1.0" />
+      </property>
+      <property name="usePos" type="bool" value="true" />
+      <property name="useScale" type="bool" value="true" />
+      <property name="useAngle" type="bool" value="true" />
+    </effect>
+    <effect id="com.alightcreative.effects.randomdisplace" locallyApplied="true">
+      <property name="mag" type="float">
+        <kf t="0.530903" v="0.000000" e="cubicBezier 0.0 0.92 0.28 1.0" />
+        <kf t="0.000000" v="200.000000" e="cubicBezier 0.0 0.92 0.28 1.0" />
+        <kf t="1.000000" v="200.000000" e="cubicBezier 0.72 0.0 1.0 0.07999998" />
+      </property>
+      <property name="evolution" type="float">
+        <kf t="0.530903" v="0.000000" e="cubicBezier 0.0 0.8 0.13 1.0" />
+        <kf t="0.000000" v="10.000000" e="cubicBezier 0.0 0.8 0.13 1.0" />
+        <kf t="1.000000" v="10.000000" e="cubicBezier 0.87 0.0 1.0 0.19999999" />
+      </property>
+      <property name="seed" type="float">
+        <kf t="0.000000" v="0.400000" e="cubicBezier 0.0 0.86 0.07 1.0" />
+        <kf t="0.530903" v="0.000000" e="cubicBezier 0.0 0.86 0.07 1.0" />
+        <kf t="1.000000" v="0.400000" e="cubicBezier 0.93 0.0 1.0 0.13999999" />
+      </property>
+      <property name="scatter" type="float" value="0.500000" />
+    </effect>
+    <effect id="com.alightcreative.effects.exposure" locallyApplied="true">
+      <property name="exposure" type="float">
+        <kf t="1.000000" v="0.000000" e="cubicBezier 0.0 0.78507656 0.39962998 1.0" />
+        <kf t="0.000000" v="1.000000" />
+      </property>
+      <property name="gamma" type="float" value="1.000000" />
+      <property name="offset" type="float" value="0.000000" />
+    </effect>
+    <effect id="com.alightcreative.effects.motionblur4" locallyApplied="true">
+      <property name="tune" type="float" value="1.000000" />
+      <property name="usePos" type="bool" value="true" />
+      <property name="useScale" type="bool" value="true" />
+      <property name="useAngle" type="bool" value="true" />
+    </effect>
+    <gain value="0.000000" />
+    <property name="size" type="vec2" value="540.000000,303.500000" />
+  </shape>
+  <shape id="102402520" label="Sukuna Twixtor - Jujutsu Kaisen S02 -.mp4" startTime="13000" endTime="13599" fillType="media" fillVideo="content://media/external/video/media/1000013676" inTime="39934" outTime="40533" mediaFillMode="fill" s=".rect">
+    <transform>
+      <location value="540.000000,540.000000,0.000000" />
+      <scale>
+        <kf t="0.514190" v="1.779242,1.779242" e="cubicBezier 0.0 0.0 0.0 1.0" />
+        <kf t="0.000000" v="4.102777,4.102777" />
+        <kf t="1.000000" v="4.122222,4.122222" e="cubicBezier 1.0 0.0 1.0 1.0" />
+      </scale>
+    </transform>
+    <effect id="com.alightcreative.effects.tile" locallyApplied="true">
+      <property name="scale" type="float" value="1.000000" />
+      <property name="phase" type="float" value="0.000000" />
+      <property name="mirror" type="bool" value="true" />
+      <property name="vertoffs" type="bool" value="false" />
+      <property name="angle" type="float" value="0.000000" />
+    </effect>
+    <effect id="com.alightcreative.effects.motionblur4" locallyApplied="true">
+      <property name="tune" type="float">
+        <kf t="0.000000" v="4.000000" />
+        <kf t="0.530903" v="0.000000" e="cubicBezier 0.0 0.7292172 0.23492134 1.0" />
+      </property>
+      <property name="usePos" type="bool" value="true" />
+      <property name="useScale" type="bool" value="true" />
+      <property name="useAngle" type="bool" value="true" />
+    </effect>
+    <effect id="com.alightcreative.effects.randomdisplace" locallyApplied="true">
+      <property name="mag" type="float">
+        <kf t="0.530903" v="0.000000" e="cubicBezier 0.0 0.92 0.28 1.0" />
+        <kf t="0.000000" v="200.000000" e="cubicBezier 0.0 0.92 0.28 1.0" />
+        <kf t="1.000000" v="200.000000" e="cubicBezier 0.72 0.0 1.0 0.07999998" />
+      </property>
+      <property name="evolution" type="float">
+        <kf t="0.530903" v="0.000000" e="cubicBezier 0.0 0.8 0.13 1.0" />
+        <kf t="0.000000" v="10.000000" e="cubicBezier 0.0 0.8 0.13 1.0" />
+        <kf t="1.000000" v="10.000000" e="cubicBezier 0.87 0.0 1.0 0.19999999" />
+      </property>
+      <property name="seed" type="float">
+        <kf t="0.000000" v="0.400000" e="cubicBezier 0.0 0.86 0.07 1.0" />
+        <kf t="0.530903" v="0.000000" e="cubicBezier 0.0 0.86 0.07 1.0" />
+        <kf t="1.000000" v="0.400000" e="cubicBezier 0.93 0.0 1.0 0.13999999" />
+      </property>
+      <property name="scatter" type="float" value="0.500000" />
+    </effect>
+    <effect id="com.alightcreative.effects.exposure" locallyApplied="true">
+      <property name="exposure" type="float">
+        <kf t="1.000000" v="0.000000" e="cubicBezier 0.0 0.78507656 0.39962998 1.0" />
+        <kf t="0.000000" v="1.000000" />
+      </property>
+      <property name="gamma" type="float" value="1.000000" />
+      <property name="offset" type="float" value="0.000000" />
+    </effect>
+    <effect id="com.alightcreative.effects.motionblur4" locallyApplied="true">
+      <property name="tune" type="float" value="1.000000" />
+      <property name="usePos" type="bool" value="true" />
+      <property name="useScale" type="bool" value="true" />
+      <property name="useAngle" type="bool" value="true" />
+    </effect>
+    <gain value="0.000000" />
+    <property name="size" type="vec2" value="540.000000,303.500000" />
+  </shape>
+  <shape id="102402527" label="Sukuna Twixtor - Jujutsu Kaisen S02 -.mp4" startTime="13583" endTime="14099" fillType="media" fillVideo="content://media/external/video/media/1000013676" inTime="57666" outTime="58348" speed="1.321705" mediaFillMode="fill" s=".rect">
+    <transform>
+      <location value="540.000000,540.000000,0.000000" />
+      <scale>
+        <kf t="0.000000" v="1.756482,1.756482" />
+        <kf t="1.000000" v="1.756482,1.756482" e="cubicBezier 1.0 0.0 1.0 1.0" />
+        <kf t="0.500000" v="2.777778,2.777778" e="cubicBezier 0.0 0.0 0.0 1.0" />
+      </scale>
+    </transform>
+    <effect id="com.alightcreative.effects.tile" locallyApplied="true">
+      <property name="scale" type="float" value="1.000000" />
+      <property name="phase" type="float" value="0.000000" />
+      <property name="mirror" type="bool" value="true" />
+      <property name="vertoffs" type="bool" value="false" />
+      <property name="angle" type="float" value="0.000000" />
+    </effect>
+    <effect id="com.alightcreative.effects.motionblur4" locallyApplied="true">
+      <property name="tune" type="float">
+        <kf t="0.000000" v="4.000000" />
+        <kf t="0.530903" v="0.000000" e="cubicBezier 0.0 0.7292172 0.23492134 1.0" />
+      </property>
+      <property name="usePos" type="bool" value="true" />
+      <property name="useScale" type="bool" value="true" />
+      <property name="useAngle" type="bool" value="true" />
+    </effect>
+    <effect id="com.alightcreative.effects.randomdisplace" locallyApplied="true">
+      <property name="mag" type="float">
+        <kf t="0.530903" v="0.000000" e="cubicBezier 0.0 0.92 0.28 1.0" />
+        <kf t="0.000000" v="200.000000" e="cubicBezier 0.0 0.92 0.28 1.0" />
+        <kf t="1.000000" v="200.000000" e="cubicBezier 0.72 0.0 1.0 0.07999998" />
+      </property>
+      <property name="evolution" type="float">
+        <kf t="0.530903" v="0.000000" e="cubicBezier 0.0 0.8 0.13 1.0" />
+        <kf t="0.000000" v="10.000000" e="cubicBezier 0.0 0.8 0.13 1.0" />
+        <kf t="1.000000" v="10.000000" e="cubicBezier 0.87 0.0 1.0 0.19999999" />
+      </property>
+      <property name="seed" type="float">
+        <kf t="0.000000" v="0.400000" e="cubicBezier 0.0 0.86 0.07 1.0" />
+        <kf t="0.530903" v="0.000000" e="cubicBezier 0.0 0.86 0.07 1.0" />
+        <kf t="1.000000" v="0.400000" e="cubicBezier 0.93 0.0 1.0 0.13999999" />
+      </property>
+      <property name="scatter" type="float" value="0.500000" />
+    </effect>
+    <effect id="com.alightcreative.effects.exposure" locallyApplied="true">
+      <property name="exposure" type="float">
+        <kf t="1.000000" v="0.000000" e="cubicBezier 0.0 0.78507656 0.39962998 1.0" />
+        <kf t="0.000000" v="1.000000" />
+      </property>
+      <property name="gamma" type="float" value="1.000000" />
+      <property name="offset" type="float" value="0.000000" />
+    </effect>
+    <effect id="com.alightcreative.effects.motionblur4" locallyApplied="true">
+      <property name="tune" type="float" value="1.000000" />
+      <property name="usePos" type="bool" value="true" />
+      <property name="useScale" type="bool" value="true" />
+      <property name="useAngle" type="bool" value="true" />
+    </effect>
+    <gain value="0.000000" />
+    <property name="size" type="vec2" value="540.000000,303.500000" />
+  </shape>
+  <shape id="102402530" label="match-cut.mp4" startTime="14066" endTime="14682" fillType="media" fillVideo="content://media/external/video/media/1000016559" outTime="2346" speed="3.834416" mediaFillMode="fill" s=".rect">
+    <transform>
+      <location value="544.000000,780.000000,0.000000" />
+      <scale>
+        <kf t="0.527597" v="1.779242,1.779242" e="cubicBezier 0.0 0.0 0.0 1.0" />
+        <kf t="0.000000" v="2.547222,2.547222" />
+        <kf t="1.000000" v="2.472222,2.472222" e="cubicBezier 1.0 0.0 1.0 1.0" />
+      </scale>
+    </transform>
+    <effect id="com.alightcreative.effects.tile" locallyApplied="true">
+      <property name="scale" type="float" value="1.000000" />
+      <property name="phase" type="float" value="0.000000" />
+      <property name="mirror" type="bool" value="true" />
+      <property name="vertoffs" type="bool" value="false" />
+      <property name="angle" type="float" value="0.000000" />
+    </effect>
+    <effect id="com.alightcreative.effects.motionblur4" locallyApplied="true">
+      <property name="tune" type="float">
+        <kf t="0.000000" v="4.000000" />
+        <kf t="0.530903" v="0.000000" e="cubicBezier 0.0 0.7292172 0.23492134 1.0" />
+      </property>
+      <property name="usePos" type="bool" value="true" />
+      <property name="useScale" type="bool" value="true" />
+      <property name="useAngle" type="bool" value="true" />
+    </effect>
+    <effect id="com.alightcreative.effects.randomdisplace" locallyApplied="true">
+      <property name="mag" type="float">
+        <kf t="0.530903" v="0.000000" e="cubicBezier 0.0 0.92 0.28 1.0" />
+        <kf t="0.000000" v="200.000000" e="cubicBezier 0.0 0.92 0.28 1.0" />
+        <kf t="1.000000" v="200.000000" e="cubicBezier 0.72 0.0 1.0 0.07999998" />
+      </property>
+      <property name="evolution" type="float">
+        <kf t="0.530903" v="0.000000" e="cubicBezier 0.0 0.8 0.13 1.0" />
+        <kf t="0.000000" v="10.000000" e="cubicBezier 0.0 0.8 0.13 1.0" />
+        <kf t="1.000000" v="10.000000" e="cubicBezier 0.87 0.0 1.0 0.19999999" />
+      </property>
+      <property name="seed" type="float">
+        <kf t="0.000000" v="0.400000" e="cubicBezier 0.0 0.86 0.07 1.0" />
+        <kf t="0.530903" v="0.000000" e="cubicBezier 0.0 0.86 0.07 1.0" />
+        <kf t="1.000000" v="0.400000" e="cubicBezier 0.93 0.0 1.0 0.13999999" />
+      </property>
+      <property name="scatter" type="float" value="0.500000" />
+    </effect>
+    <effect id="com.alightcreative.effects.exposure" locallyApplied="true">
+      <property name="exposure" type="float">
+        <kf t="1.000000" v="0.000000" e="cubicBezier 0.0 0.78507656 0.39962998 1.0" />
+        <kf t="0.000000" v="1.000000" />
+      </property>
+      <property name="gamma" type="float" value="1.000000" />
+      <property name="offset" type="float" value="0.000000" />
+    </effect>
+    <effect id="com.alightcreative.effects.motionblur4" locallyApplied="true">
+      <property name="tune" type="float" value="1.000000" />
+      <property name="usePos" type="bool" value="true" />
+      <property name="useScale" type="bool" value="true" />
+      <property name="useAngle" type="bool" value="true" />
+    </effect>
+    <property name="size" type="vec2" value="303.500000,540.000000" />
+  </shape>
+  <shape id="102402518" label="Sukuna Twixtor - Jujutsu Kaisen S02 -.mp4" startTime="14666" endTime="15199" fillType="media" fillVideo="content://media/external/video/media/1000013676" inTime="9917" outTime="10634" speed="1.345216" mediaFillMode="fill" s=".rect">
+    <transform>
+      <location value="540.000000,540.000000,0.000000" />
+      <scale>
+        <kf t="0.000000" v="1.684259,1.684259" />
+        <kf t="0.954972" v="1.762037,1.762037" e="cubicBezier 1.0 0.0 1.0 1.0" />
+        <kf t="0.485929" v="2.605556,2.605556" e="cubicBezier 0.0 0.0 0.0 1.0" />
+      </scale>
+    </transform>
+    <effect id="com.alightcreative.effects.tile" locallyApplied="true">
+      <property name="scale" type="float" value="1.000000" />
+      <property name="phase" type="float" value="0.000000" />
+      <property name="mirror" type="bool" value="true" />
+      <property name="vertoffs" type="bool" value="false" />
+      <property name="angle" type="float" value="0.000000" />
+    </effect>
+    <effect id="com.alightcreative.effects.motionblur4" locallyApplied="true">
+      <property name="tune" type="float">
+        <kf t="0.000000" v="4.000000" />
+        <kf t="0.530903" v="0.000000" e="cubicBezier 0.0 0.7292172 0.23492134 1.0" />
+      </property>
+      <property name="usePos" type="bool" value="true" />
+      <property name="useScale" type="bool" value="true" />
+      <property name="useAngle" type="bool" value="true" />
+    </effect>
+    <effect id="com.alightcreative.effects.randomdisplace" locallyApplied="true">
+      <property name="mag" type="float">
+        <kf t="0.530903" v="0.000000" e="cubicBezier 0.0 0.92 0.28 1.0" />
+        <kf t="0.000000" v="200.000000" e="cubicBezier 0.0 0.92 0.28 1.0" />
+        <kf t="1.000000" v="200.000000" e="cubicBezier 0.72 0.0 1.0 0.07999998" />
+      </property>
+      <property name="evolution" type="float">
+        <kf t="0.530903" v="0.000000" e="cubicBezier 0.0 0.8 0.13 1.0" />
+        <kf t="0.000000" v="10.000000" e="cubicBezier 0.0 0.8 0.13 1.0" />
+        <kf t="1.000000" v="10.000000" e="cubicBezier 0.87 0.0 1.0 0.19999999" />
+      </property>
+      <property name="seed" type="float">
+        <kf t="0.000000" v="0.400000" e="cubicBezier 0.0 0.86 0.07 1.0" />
+        <kf t="0.530903" v="0.000000" e="cubicBezier 0.0 0.86 0.07 1.0" />
+        <kf t="1.000000" v="0.400000" e="cubicBezier 0.93 0.0 1.0 0.13999999" />
+      </property>
+      <property name="scatter" type="float" value="0.500000" />
+    </effect>
+    <effect id="com.alightcreative.effects.exposure" locallyApplied="true">
+      <property name="exposure" type="float">
+        <kf t="1.000000" v="0.000000" e="cubicBezier 0.0 0.78507656 0.39962998 1.0" />
+        <kf t="0.000000" v="1.000000" />
+      </property>
+      <property name="gamma" type="float" value="1.000000" />
+      <property name="offset" type="float" value="0.000000" />
+    </effect>
+    <effect id="com.alightcreative.effects.motionblur4" locallyApplied="true">
+      <property name="tune" type="float" value="1.000000" />
+      <property name="usePos" type="bool" value="true" />
+      <property name="useScale" type="bool" value="true" />
+      <property name="useAngle" type="bool" value="true" />
+    </effect>
+    <gain value="0.000000" />
+    <property name="size" type="vec2" value="540.000000,303.500000" />
+  </shape>
+  <shape id="102402523" label="Sukuna Twixtor - Jujutsu Kaisen S02 -.mp4" startTime="15183" endTime="15715" fillType="media" fillVideo="content://media/external/video/media/1000013676" inTime="101134" outTime="101949" speed="1.531955" mediaFillMode="fill" s=".rect">
+    <transform>
+      <location value="626.500000,540.000000,0.000000" />
+      <scale>
+        <kf t="0.548872" v="1.779242,1.779242" e="cubicBezier 0.0 0.0 0.0 1.0" />
+        <kf t="0.000000" v="2.962963,2.962963" />
+        <kf t="1.000000" v="2.975000,2.975000" e="cubicBezier 1.0 0.0 1.0 1.0" />
+      </scale>
+    </transform>
+    <effect id="com.alightcreative.effects.tile" locallyApplied="true">
+      <property name="scale" type="float" value="1.000000" />
+      <property name="phase" type="float" value="0.000000" />
+      <property name="mirror" type="bool" value="true" />
+      <property name="vertoffs" type="bool" value="false" />
+      <property name="angle" type="float" value="0.000000" />
+    </effect>
+    <effect id="com.alightcreative.effects.motionblur4" locallyApplied="true">
+      <property name="tune" type="float">
+        <kf t="0.000000" v="4.000000" />
+        <kf t="0.530903" v="0.000000" e="cubicBezier 0.0 0.7292172 0.23492134 1.0" />
+      </property>
+      <property name="usePos" type="bool" value="true" />
+      <property name="useScale" type="bool" value="true" />
+      <property name="useAngle" type="bool" value="true" />
+    </effect>
+    <effect id="com.alightcreative.effects.randomdisplace" locallyApplied="true">
+      <property name="mag" type="float">
+        <kf t="0.530903" v="0.000000" e="cubicBezier 0.0 0.92 0.28 1.0" />
+        <kf t="0.000000" v="200.000000" e="cubicBezier 0.0 0.92 0.28 1.0" />
+        <kf t="1.000000" v="200.000000" e="cubicBezier 0.72 0.0 1.0 0.07999998" />
+      </property>
+      <property name="evolution" type="float">
+        <kf t="0.530903" v="0.000000" e="cubicBezier 0.0 0.8 0.13 1.0" />
+        <kf t="0.000000" v="10.000000" e="cubicBezier 0.0 0.8 0.13 1.0" />
+        <kf t="1.000000" v="10.000000" e="cubicBezier 0.87 0.0 1.0 0.19999999" />
+      </property>
+      <property name="seed" type="float">
+        <kf t="0.000000" v="0.400000" e="cubicBezier 0.0 0.86 0.07 1.0" />
+        <kf t="0.530903" v="0.000000" e="cubicBezier 0.0 0.86 0.07 1.0" />
+        <kf t="1.000000" v="0.400000" e="cubicBezier 0.93 0.0 1.0 0.13999999" />
+      </property>
+      <property name="scatter" type="float" value="0.500000" />
+    </effect>
+    <effect id="com.alightcreative.effects.exposure" locallyApplied="true">
+      <property name="exposure" type="float">
+        <kf t="1.000000" v="0.000000" e="cubicBezier 0.0 0.78507656 0.39962998 1.0" />
+        <kf t="0.000000" v="1.000000" />
+      </property>
+      <property name="gamma" type="float" value="1.000000" />
+      <property name="offset" type="float" value="0.000000" />
+    </effect>
+    <effect id="com.alightcreative.effects.motionblur4" locallyApplied="true">
+      <property name="tune" type="float" value="1.000000" />
+      <property name="usePos" type="bool" value="true" />
+      <property name="useScale" type="bool" value="true" />
+      <property name="useAngle" type="bool" value="true" />
+    </effect>
+    <gain value="0.000000" />
+    <property name="size" type="vec2" value="540.000000,303.500000" />
+  </shape>
+  <shape id="102402525" label="Sukuna Twixtor - Jujutsu Kaisen S02 -.mp4" startTime="15700" endTime="16299" fillType="media" fillVideo="content://media/external/video/media/1000013676" inTime="149634" outTime="150349" speed="1.193656" mediaFillMode="fill" s=".rect">
+    <transform>
+      <location>
+        <kf t="0.000000" v="540.000000,540.000000,0.000000" />
+        <kf t="1.000000" v="540.000000,540.000000,0.000000" e="cubicBezier 1.0 0.0 1.0 1.0" />
+        <kf t="0.514190" v="540.000000,719.500000,0.000000" e="cubicBezier 0.0 0.0 0.0 1.0" />
+      </location>
+      <scale>
+        <kf t="0.514190" v="2.710185,2.710185" e="cubicBezier 0.0 0.0 0.0 1.0" />
+        <kf t="1.000000" v="1.737963,1.737963" e="cubicBezier 1.0 0.0 1.0 1.0" />
+        <kf t="0.000000" v="1.762037,1.762037" />
+      </scale>
+    </transform>
+    <effect id="com.alightcreative.effects.tile" locallyApplied="true">
+      <property name="scale" type="float" value="1.000000" />
+      <property name="phase" type="float" value="0.000000" />
+      <property name="mirror" type="bool" value="true" />
+      <property name="vertoffs" type="bool" value="false" />
+      <property name="angle" type="float" value="0.000000" />
+    </effect>
+    <effect id="com.alightcreative.effects.motionblur4" locallyApplied="true">
+      <property name="tune" type="float">
+        <kf t="0.000000" v="4.000000" />
+        <kf t="0.530903" v="0.000000" e="cubicBezier 0.0 0.7292172 0.23492134 1.0" />
+      </property>
+      <property name="usePos" type="bool" value="true" />
+      <property name="useScale" type="bool" value="true" />
+      <property name="useAngle" type="bool" value="true" />
+    </effect>
+    <effect id="com.alightcreative.effects.randomdisplace" locallyApplied="true">
+      <property name="mag" type="float">
+        <kf t="0.530903" v="0.000000" e="cubicBezier 0.0 0.92 0.28 1.0" />
+        <kf t="0.000000" v="200.000000" e="cubicBezier 0.0 0.92 0.28 1.0" />
+        <kf t="1.000000" v="200.000000" e="cubicBezier 0.72 0.0 1.0 0.07999998" />
+      </property>
+      <property name="evolution" type="float">
+        <kf t="0.530903" v="0.000000" e="cubicBezier 0.0 0.8 0.13 1.0" />
+        <kf t="0.000000" v="10.000000" e="cubicBezier 0.0 0.8 0.13 1.0" />
+        <kf t="1.000000" v="10.000000" e="cubicBezier 0.87 0.0 1.0 0.19999999" />
+      </property>
+      <property name="seed" type="float">
+        <kf t="0.000000" v="0.400000" e="cubicBezier 0.0 0.86 0.07 1.0" />
+        <kf t="0.530903" v="0.000000" e="cubicBezier 0.0 0.86 0.07 1.0" />
+        <kf t="1.000000" v="0.400000" e="cubicBezier 0.93 0.0 1.0 0.13999999" />
+      </property>
+      <property name="scatter" type="float" value="0.500000" />
+    </effect>
+    <effect id="com.alightcreative.effects.exposure" locallyApplied="true">
+      <property name="exposure" type="float">
+        <kf t="1.000000" v="0.000000" e="cubicBezier 0.0 0.78507656 0.39962998 1.0" />
+        <kf t="0.000000" v="1.000000" />
+      </property>
+      <property name="gamma" type="float" value="1.000000" />
+      <property name="offset" type="float" value="0.000000" />
+    </effect>
+    <effect id="com.alightcreative.effects.motionblur4" locallyApplied="true">
+      <property name="tune" type="float" value="1.000000" />
+      <property name="usePos" type="bool" value="true" />
+      <property name="useScale" type="bool" value="true" />
+      <property name="useAngle" type="bool" value="true" />
+    </effect>
+    <gain value="0.000000" />
+    <property name="size" type="vec2" value="540.000000,303.500000" />
+  </shape>
+  <shape id="102402519" label="Sukuna Twixtor - Jujutsu Kaisen S02 -.mp4" startTime="16283" endTime="16799" fillType="media" fillVideo="content://media/external/video/media/1000013676" inTime="33434" outTime="33950" mediaFillMode="fill" s=".rect">
+    <transform>
+      <location>
+        <kf t="0.500000" v="404.500000,537.500000,0.000000" e="cubicBezier 0.0 0.0 0.0 1.0" />
+        <kf t="1.000000" v="65.783203,537.500000,0.000000" e="cubicBezier 1.0 0.0 1.0 1.0" />
+        <kf t="0.000000" v="355.790039,537.500000,0.000000" />
+      </location>
+      <scale>
+        <kf t="0.500000" v="1.779242,1.779242" e="cubicBezier 0.0 0.0 0.0 1.0" />
+        <kf t="0.000000" v="2.945370,2.945370" />
+        <kf t="1.000000" v="5.353704,5.353704" e="cubicBezier 1.0 0.0 1.0 1.0" />
+      </scale>
+    </transform>
+    <effect id="com.alightcreative.effects.tile" locallyApplied="true">
+      <property name="scale" type="float" value="1.000000" />
+      <property name="phase" type="float" value="0.000000" />
+      <property name="mirror" type="bool" value="true" />
+      <property name="vertoffs" type="bool" value="false" />
+      <property name="angle" type="float" value="0.000000" />
+    </effect>
+    <effect id="com.alightcreative.effects.motionblur4" locallyApplied="true">
+      <property name="tune" type="float">
+        <kf t="0.000000" v="4.000000" />
+        <kf t="0.530903" v="0.000000" e="cubicBezier 0.0 0.7292172 0.23492134 1.0" />
+      </property>
+      <property name="usePos" type="bool" value="true" />
+      <property name="useScale" type="bool" value="true" />
+      <property name="useAngle" type="bool" value="true" />
+    </effect>
+    <effect id="com.alightcreative.effects.randomdisplace" locallyApplied="true">
+      <property name="mag" type="float">
+        <kf t="0.530903" v="0.000000" e="cubicBezier 0.0 0.92 0.28 1.0" />
+        <kf t="0.000000" v="200.000000" e="cubicBezier 0.0 0.92 0.28 1.0" />
+        <kf t="1.000000" v="200.000000" e="cubicBezier 0.72 0.0 1.0 0.07999998" />
+      </property>
+      <property name="evolution" type="float">
+        <kf t="0.530903" v="0.000000" e="cubicBezier 0.0 0.8 0.13 1.0" />
+        <kf t="0.000000" v="10.000000" e="cubicBezier 0.0 0.8 0.13 1.0" />
+        <kf t="1.000000" v="10.000000" e="cubicBezier 0.87 0.0 1.0 0.19999999" />
+      </property>
+      <property name="seed" type="float">
+        <kf t="0.000000" v="0.400000" e="cubicBezier 0.0 0.86 0.07 1.0" />
+        <kf t="0.530903" v="0.000000" e="cubicBezier 0.0 0.86 0.07 1.0" />
+        <kf t="1.000000" v="0.400000" e="cubicBezier 0.93 0.0 1.0 0.13999999" />
+      </property>
+      <property name="scatter" type="float" value="0.500000" />
+    </effect>
+    <effect id="com.alightcreative.effects.exposure" locallyApplied="true">
+      <property name="exposure" type="float">
+        <kf t="1.000000" v="0.000000" e="cubicBezier 0.0 0.78507656 0.39962998 1.0" />
+        <kf t="0.000000" v="1.000000" />
+      </property>
+      <property name="gamma" type="float" value="1.000000" />
+      <property name="offset" type="float" value="0.000000" />
+    </effect>
+    <effect id="com.alightcreative.effects.motionblur4" locallyApplied="true">
+      <property name="tune" type="float" value="1.000000" />
+      <property name="usePos" type="bool" value="true" />
+      <property name="useScale" type="bool" value="true" />
+      <property name="useAngle" type="bool" value="true" />
+    </effect>
+    <gain value="0.000000" />
+    <property name="size" type="vec2" value="540.000000,303.500000" />
+  </shape>
+  <shape id="102402521" label="Sukuna Twixtor - Jujutsu Kaisen S02 -.mp4" startTime="16783" endTime="17365" fillType="media" fillVideo="content://media/external/video/media/1000013676" inTime="48667" outTime="49249" mediaFillMode="fill" s=".rect">
+    <transform>
+      <location value="540.000000,540.000000,0.000000" />
+      <scale>
+        <kf t="0.000000" v="1.752778,1.752778" />
+        <kf t="1.000000" v="1.759259,1.759259" e="cubicBezier 1.0 0.0 1.0 1.0" />
+        <kf t="0.501718" v="2.525926,2.525926" e="cubicBezier 0.0 0.0 0.0 1.0" />
+      </scale>
+    </transform>
+    <effect id="com.alightcreative.effects.tile" locallyApplied="true">
+      <property name="scale" type="float" value="1.000000" />
+      <property name="phase" type="float" value="0.000000" />
+      <property name="mirror" type="bool" value="true" />
+      <property name="vertoffs" type="bool" value="false" />
+      <property name="angle" type="float" value="0.000000" />
+    </effect>
+    <effect id="com.alightcreative.effects.motionblur4" locallyApplied="true">
+      <property name="tune" type="float">
+        <kf t="0.000000" v="4.000000" />
+        <kf t="0.530903" v="0.000000" e="cubicBezier 0.0 0.7292172 0.23492134 1.0" />
+      </property>
+      <property name="usePos" type="bool" value="true" />
+      <property name="useScale" type="bool" value="true" />
+      <property name="useAngle" type="bool" value="true" />
+    </effect>
+    <effect id="com.alightcreative.effects.randomdisplace" locallyApplied="true">
+      <property name="mag" type="float">
+        <kf t="0.530903" v="0.000000" e="cubicBezier 0.0 0.92 0.28 1.0" />
+        <kf t="0.000000" v="200.000000" e="cubicBezier 0.0 0.92 0.28 1.0" />
+        <kf t="1.000000" v="200.000000" e="cubicBezier 0.72 0.0 1.0 0.07999998" />
+      </property>
+      <property name="evolution" type="float">
+        <kf t="0.530903" v="0.000000" e="cubicBezier 0.0 0.8 0.13 1.0" />
+        <kf t="0.000000" v="10.000000" e="cubicBezier 0.0 0.8 0.13 1.0" />
+        <kf t="1.000000" v="10.000000" e="cubicBezier 0.87 0.0 1.0 0.19999999" />
+      </property>
+      <property name="seed" type="float">
+        <kf t="0.000000" v="0.400000" e="cubicBezier 0.0 0.86 0.07 1.0" />
+        <kf t="0.530903" v="0.000000" e="cubicBezier 0.0 0.86 0.07 1.0" />
+        <kf t="1.000000" v="0.400000" e="cubicBezier 0.93 0.0 1.0 0.13999999" />
+      </property>
+      <property name="scatter" type="float" value="0.500000" />
+    </effect>
+    <effect id="com.alightcreative.effects.exposure" locallyApplied="true">
+      <property name="exposure" type="float">
+        <kf t="1.000000" v="0.000000" e="cubicBezier 0.0 0.78507656 0.39962998 1.0" />
+        <kf t="0.000000" v="1.000000" />
+      </property>
+      <property name="gamma" type="float" value="1.000000" />
+      <property name="offset" type="float" value="0.000000" />
+    </effect>
+    <effect id="com.alightcreative.effects.motionblur4" locallyApplied="true">
+      <property name="tune" type="float" value="1.000000" />
+      <property name="usePos" type="bool" value="true" />
+      <property name="useScale" type="bool" value="true" />
+      <property name="useAngle" type="bool" value="true" />
+    </effect>
+    <gain value="0.000000" />
+    <property name="size" type="vec2" value="540.000000,303.500000" />
+  </shape>
+  <shape id="102402522" label="Sukuna Twixtor - Jujutsu Kaisen S02 -.mp4" startTime="17350" endTime="17899" fillType="media" fillVideo="content://media/external/video/media/1000013676" inTime="81150" outTime="81699" mediaFillMode="fill" s=".rect">
+    <transform>
+      <location value="540.000000,540.000000,0.000000" />
+      <scale>
+        <kf t="0.500911" v="1.779242,1.779242" e="cubicBezier 0.0 0.0 0.0 1.0" />
+        <kf t="0.000000" v="2.816667,2.816667" />
+        <kf t="1.000000" v="2.901852,2.901852" e="cubicBezier 1.0 0.0 1.0 1.0" />
+      </scale>
+    </transform>
+    <effect id="com.alightcreative.effects.tile" locallyApplied="true">
+      <property name="scale" type="float" value="1.000000" />
+      <property name="phase" type="float" value="0.000000" />
+      <property name="mirror" type="bool" value="true" />
+      <property name="vertoffs" type="bool" value="false" />
+      <property name="angle" type="float" value="0.000000" />
+    </effect>
+    <effect id="com.alightcreative.effects.motionblur4" locallyApplied="true">
+      <property name="tune" type="float">
+        <kf t="0.000000" v="4.000000" />
+        <kf t="0.530903" v="0.000000" e="cubicBezier 0.0 0.7292172 0.23492134 1.0" />
+      </property>
+      <property name="usePos" type="bool" value="true" />
+      <property name="useScale" type="bool" value="true" />
+      <property name="useAngle" type="bool" value="true" />
+    </effect>
+    <effect id="com.alightcreative.effects.randomdisplace" locallyApplied="true">
+      <property name="mag" type="float">
+        <kf t="0.530903" v="0.000000" e="cubicBezier 0.0 0.92 0.28 1.0" />
+        <kf t="0.000000" v="200.000000" e="cubicBezier 0.0 0.92 0.28 1.0" />
+        <kf t="1.000000" v="200.000000" e="cubicBezier 0.72 0.0 1.0 0.07999998" />
+      </property>
+      <property name="evolution" type="float">
+        <kf t="0.530903" v="0.000000" e="cubicBezier 0.0 0.8 0.13 1.0" />
+        <kf t="0.000000" v="10.000000" e="cubicBezier 0.0 0.8 0.13 1.0" />
+        <kf t="1.000000" v="10.000000" e="cubicBezier 0.87 0.0 1.0 0.19999999" />
+      </property>
+      <property name="seed" type="float">
+        <kf t="0.000000" v="0.400000" e="cubicBezier 0.0 0.86 0.07 1.0" />
+        <kf t="0.530903" v="0.000000" e="cubicBezier 0.0 0.86 0.07 1.0" />
+        <kf t="1.000000" v="0.400000" e="cubicBezier 0.93 0.0 1.0 0.13999999" />
+      </property>
+      <property name="scatter" type="float" value="0.500000" />
+    </effect>
+    <effect id="com.alightcreative.effects.exposure" locallyApplied="true">
+      <property name="exposure" type="float">
+        <kf t="1.000000" v="0.000000" e="cubicBezier 0.0 0.78507656 0.39962998 1.0" />
+        <kf t="0.000000" v="1.000000" />
+      </property>
+      <property name="gamma" type="float" value="1.000000" />
+      <property name="offset" type="float" value="0.000000" />
+    </effect>
+    <effect id="com.alightcreative.effects.motionblur4" locallyApplied="true">
+      <property name="tune" type="float" value="1.000000" />
+      <property name="usePos" type="bool" value="true" />
+      <property name="useScale" type="bool" value="true" />
+      <property name="useAngle" type="bool" value="true" />
+    </effect>
+    <gain value="0.000000" />
+    <property name="size" type="vec2" value="540.000000,303.500000" />
+  </shape>
+  <shape id="102402526" label="Sukuna Twixtor - Jujutsu Kaisen S02 -.mp4" startTime="17883" endTime="18465" fillType="media" fillVideo="content://media/external/video/media/1000013676" inTime="220334" outTime="220916" mediaFillMode="fill" s=".rect">
+    <transform>
+      <location value="540.000000,540.000000,0.000000" />
+      <scale>
+        <kf t="0.759450" v="2.496296,2.496296" e="cubicBezier 0.0 0.0 0.0 1.0" />
+        <kf t="0.000000" v="1.780555,1.780555" />
+        <kf t="1.000000" v="1.694444,1.694444" e="cubicBezier 1.0 0.0 1.0 1.0" />
+      </scale>
+    </transform>
+    <effect id="com.alightcreative.effects.tile" locallyApplied="true">
+      <property name="scale" type="float" value="1.000000" />
+      <property name="phase" type="float" value="0.000000" />
+      <property name="mirror" type="bool" value="true" />
+      <property name="vertoffs" type="bool" value="false" />
+      <property name="angle" type="float" value="0.000000" />
+    </effect>
+    <effect id="com.alightcreative.effects.motionblur4" locallyApplied="true">
+      <property name="tune" type="float">
+        <kf t="0.000000" v="4.000000" />
+        <kf t="0.530903" v="0.000000" e="cubicBezier 0.0 0.7292172 0.23492134 1.0" />
+      </property>
+      <property name="usePos" type="bool" value="true" />
+      <property name="useScale" type="bool" value="true" />
+      <property name="useAngle" type="bool" value="true" />
+    </effect>
+    <effect id="com.alightcreative.effects.randomdisplace" locallyApplied="true">
+      <property name="mag" type="float">
+        <kf t="0.530903" v="0.000000" e="cubicBezier 0.0 0.92 0.28 1.0" />
+        <kf t="0.000000" v="200.000000" e="cubicBezier 0.0 0.92 0.28 1.0" />
+        <kf t="1.000000" v="200.000000" e="cubicBezier 0.72 0.0 1.0 0.07999998" />
+      </property>
+      <property name="evolution" type="float">
+        <kf t="0.530903" v="0.000000" e="cubicBezier 0.0 0.8 0.13 1.0" />
+        <kf t="0.000000" v="10.000000" e="cubicBezier 0.0 0.8 0.13 1.0" />
+        <kf t="1.000000" v="10.000000" e="cubicBezier 0.87 0.0 1.0 0.19999999" />
+      </property>
+      <property name="seed" type="float">
+        <kf t="0.000000" v="0.400000" e="cubicBezier 0.0 0.86 0.07 1.0" />
+        <kf t="0.530903" v="0.000000" e="cubicBezier 0.0 0.86 0.07 1.0" />
+        <kf t="1.000000" v="0.400000" e="cubicBezier 0.93 0.0 1.0 0.13999999" />
+      </property>
+      <property name="scatter" type="float" value="0.500000" />
+    </effect>
+    <effect id="com.alightcreative.effects.exposure" locallyApplied="true">
+      <property name="exposure" type="float">
+        <kf t="1.000000" v="0.000000" e="cubicBezier 0.0 0.78507656 0.39962998 1.0" />
+        <kf t="0.000000" v="1.000000" />
+      </property>
+      <property name="gamma" type="float" value="1.000000" />
+      <property name="offset" type="float" value="0.000000" />
+    </effect>
+    <effect id="com.alightcreative.effects.motionblur4" locallyApplied="true">
+      <property name="tune" type="float" value="1.000000" />
+      <property name="usePos" type="bool" value="true" />
+      <property name="useScale" type="bool" value="true" />
+      <property name="useAngle" type="bool" value="true" />
+    </effect>
+    <gain value="0.000000" />
+    <property name="size" type="vec2" value="540.000000,303.500000" />
+  </shape>
+  <shape id="102402531" label="match-cut (1).mp4" startTime="18450" endTime="19099" fillType="media" fillVideo="content://media/external/video/media/1000016560" outTime="2346" speed="3.637904" mediaFillMode="fill" s=".rect">
+    <transform>
+      <location value="540.000000,824.000000,0.000000" />
+      <scale>
+        <kf t="1.000000" v="1.779242,1.779242" e="cubicBezier 0.0 0.0 0.0 1.0" />
+        <kf t="0.000000" v="2.544445,2.544445" />
+      </scale>
+    </transform>
+    <effect id="com.alightcreative.effects.tile" locallyApplied="true">
+      <property name="scale" type="float" value="1.000000" />
+      <property name="phase" type="float" value="0.000000" />
+      <property name="mirror" type="bool" value="true" />
+      <property name="vertoffs" type="bool" value="false" />
+      <property name="angle" type="float" value="0.000000" />
+    </effect>
+    <effect id="com.alightcreative.effects.motionblur4" locallyApplied="true">
+      <property name="tune" type="float">
+        <kf t="0.000000" v="4.000000" />
+        <kf t="0.530903" v="0.000000" e="cubicBezier 0.0 0.7292172 0.23492134 1.0" />
+      </property>
+      <property name="usePos" type="bool" value="true" />
+      <property name="useScale" type="bool" value="true" />
+      <property name="useAngle" type="bool" value="true" />
+    </effect>
+    <effect id="com.alightcreative.effects.randomdisplace" locallyApplied="true">
+      <property name="mag" type="float">
+        <kf t="0.530903" v="0.000000" e="cubicBezier 0.0 0.92 0.28 1.0" />
+        <kf t="0.000000" v="200.000000" e="cubicBezier 0.0 0.92 0.28 1.0" />
+        <kf t="1.000000" v="200.000000" e="cubicBezier 0.72 0.0 1.0 0.07999998" />
+      </property>
+      <property name="evolution" type="float">
+        <kf t="0.530903" v="0.000000" e="cubicBezier 0.0 0.8 0.13 1.0" />
+        <kf t="0.000000" v="10.000000" e="cubicBezier 0.0 0.8 0.13 1.0" />
+        <kf t="1.000000" v="10.000000" e="cubicBezier 0.87 0.0 1.0 0.19999999" />
+      </property>
+      <property name="seed" type="float">
+        <kf t="0.000000" v="0.400000" e="cubicBezier 0.0 0.86 0.07 1.0" />
+        <kf t="0.530903" v="0.000000" e="cubicBezier 0.0 0.86 0.07 1.0" />
+        <kf t="1.000000" v="0.400000" e="cubicBezier 0.93 0.0 1.0 0.13999999" />
+      </property>
+      <property name="scatter" type="float" value="0.500000" />
+    </effect>
+    <effect id="com.alightcreative.effects.exposure" locallyApplied="true">
+      <property name="exposure" type="float">
+        <kf t="1.000000" v="0.000000" e="cubicBezier 0.0 0.78507656 0.39962998 1.0" />
+        <kf t="0.000000" v="1.000000" />
+      </property>
+      <property name="gamma" type="float" value="1.000000" />
+      <property name="offset" type="float" value="0.000000" />
+    </effect>
+    <effect id="com.alightcreative.effects.motionblur4" locallyApplied="true">
+      <property name="tune" type="float" value="1.000000" />
+      <property name="usePos" type="bool" value="true" />
+      <property name="useScale" type="bool" value="true" />
+      <property name="useAngle" type="bool" value="true" />
+    </effect>
+    <property name="size" type="vec2" value="303.500000,540.000000" />
+  </shape>
+  <embedScene id="102402622" label="Group and Mask 1" startTime="12383" endTime="14616" fillType="intrinsic" blending="mask" outTime="2233" mediaFillMode="fill">
+    <transform lockAspectRatio="false">
+      <location value="540.000000,540.000000,0.000000" />
+      <scale>
+        <kf t="0.000000" v="1.809517,1.245959" />
+        <kf t="0.257501" v="1.809517,1.098153" e="cubicBezier 0.0 0.0 0.58 1.0" />
+        <kf t="0.361845" v="1.809517,1.450347" e="cubicBezier 0.0 0.0 0.0 1.0" />
+        <kf t="0.466189" v="1.809517,1.017322" e="cubicBezier 0.0 0.0 0.58 1.0" />
+        <kf t="0.720107" v="1.809517,1.801386" e="cubicBezier 0.42 0.0 1.0 1.0" />
+      </scale>
+      <rotation>
+        <kf t="0.257501" v="0.000000" />
+        <kf t="0.466189" v="90.000000" e="cubicBezier 0.0 0.0 0.58 1.0" />
+        <kf t="0.720107" v="180.000000" e="cubicBezier 0.42 0.0 1.0 1.0" />
+        <kf t="0.526198" v="90.000000" />
+      </rotation>
+      <opacity value="0.701172" />
+    </transform>
+    <fillColor value="#ff000000" />
+    <scene title="" width="21750" height="1080" exportWidth="21750" exportHeight="1080" precompose="dynamicResolution" bgcolor="#00000000" totalTime="2016" fps="60" modifiedTime="0" amver="1028417" ffver="106" am="com.alightcreative.motion/5.0.273.1028417" amplatform="android" retime="off" retimeAdaptFPS="false">
+      <shape id="102402617" label="Rectangle 1" startTime="0" endTime="2016" fillType="color" mediaFillMode="fill" s=".rect">
+        <transform>
+          <location value="10875.014648,540.000000,0.000000" />
+          <scale value="5.400000,5.400000" />
+        </transform>
+        <fillColor value="#ff3ed856" />
+        <property name="size" type="vec2" value="100.000000,100.000000" />
+      </shape>
+      <shape id="102402618" label="Rectangle 2" startTime="0" endTime="2016" fillType="color" blending="mask" mediaFillMode="fill" s=".rect">
+        <transform lockAspectRatio="false">
+          <location value="10875.014648,540.000000,0.000000" />
+          <scale value="108.750145,4.330001" />
+        </transform>
+        <fillColor value="#ff7bbab4" />
+        <property name="size" type="vec2" value="100.000000,100.000000" />
+      </shape>
+    </scene>
+  </embedScene>
+  <embedScene id="102402623" label="Group and Mask 1" startTime="14583" endTime="16816" fillType="intrinsic" blending="mask" outTime="2233" mediaFillMode="fill">
+    <transform lockAspectRatio="false">
+      <location value="540.000000,540.000000,0.000000" />
+      <scale>
+        <kf t="0.000000" v="1.809517,1.245959" />
+        <kf t="0.257501" v="1.809517,1.098153" e="cubicBezier 0.0 0.0 0.58 1.0" />
+        <kf t="0.361845" v="1.809517,1.450347" e="cubicBezier 0.0 0.0 0.0 1.0" />
+        <kf t="0.466189" v="1.809517,1.017322" e="cubicBezier 0.0 0.0 0.58 1.0" />
+        <kf t="0.720107" v="1.809517,1.801386" e="cubicBezier 0.42 0.0 1.0 1.0" />
+      </scale>
+      <rotation>
+        <kf t="0.257501" v="0.000000" />
+        <kf t="0.466189" v="-90.000000" />
+        <kf t="0.526198" v="-90.000000" />
+        <kf t="0.720107" v="-180.000000" />
+      </rotation>
+      <opacity value="0.701172" />
+    </transform>
+    <fillColor value="#ff000000" />
+    <scene title="" width="21750" height="1080" exportWidth="21750" exportHeight="1080" precompose="dynamicResolution" bgcolor="#00000000" totalTime="2016" fps="60" modifiedTime="0" amver="1028417" ffver="106" am="com.alightcreative.motion/5.0.273.1028417" amplatform="android" retime="off" retimeAdaptFPS="false">
+      <shape id="102402617" label="Rectangle 1" startTime="0" endTime="2016" fillType="color" mediaFillMode="fill" s=".rect">
+        <transform>
+          <location value="10875.014648,540.000000,0.000000" />
+          <scale value="5.400000,5.400000" />
+        </transform>
+        <fillColor value="#ff3ed856" />
+        <property name="size" type="vec2" value="100.000000,100.000000" />
+      </shape>
+      <shape id="102402618" label="Rectangle 2" startTime="0" endTime="2016" fillType="color" blending="mask" mediaFillMode="fill" s=".rect">
+        <transform lockAspectRatio="false">
+          <location value="10875.014648,540.000000,0.000000" />
+          <scale value="108.750145,4.330001" />
+        </transform>
+        <fillColor value="#ff7bbab4" />
+        <property name="size" type="vec2" value="100.000000,100.000000" />
+      </shape>
+    </scene>
+  </embedScene>
+  <embedScene id="102402624" label="Group and Mask 1" startTime="16749" endTime="18982" fillType="intrinsic" blending="mask" outTime="2233" mediaFillMode="fill">
+    <transform lockAspectRatio="false">
+      <location value="540.000000,540.000000,0.000000" />
+      <scale>
+        <kf t="0.000000" v="1.809517,1.245959" />
+        <kf t="0.257501" v="1.809517,1.098153" e="cubicBezier 0.0 0.0 0.58 1.0" />
+        <kf t="0.361845" v="1.809517,1.450347" e="cubicBezier 0.0 0.0 0.0 1.0" />
+        <kf t="0.466189" v="1.809517,1.017322" e="cubicBezier 0.0 0.0 0.58 1.0" />
+        <kf t="0.720107" v="1.809517,1.801386" e="cubicBezier 0.42 0.0 1.0 1.0" />
+      </scale>
+      <rotation>
+        <kf t="0.257501" v="0.000000" />
+        <kf t="0.466189" v="90.000000" e="cubicBezier 0.0 0.0 0.58 1.0" />
+        <kf t="0.720107" v="180.000000" e="cubicBezier 0.42 0.0 1.0 1.0" />
+        <kf t="0.526198" v="90.000000" />
+      </rotation>
+      <opacity value="0.701172" />
+    </transform>
+    <fillColor value="#ff000000" />
+    <scene title="" width="21750" height="1080" exportWidth="21750" exportHeight="1080" precompose="dynamicResolution" bgcolor="#00000000" totalTime="2016" fps="60" modifiedTime="0" amver="1028417" ffver="106" am="com.alightcreative.motion/5.0.273.1028417" amplatform="android" retime="off" retimeAdaptFPS="false">
+      <shape id="102402617" label="Rectangle 1" startTime="0" endTime="2016" fillType="color" mediaFillMode="fill" s=".rect">
+        <transform>
+          <location value="10875.014648,540.000000,0.000000" />
+          <scale value="5.400000,5.400000" />
+        </transform>
+        <fillColor value="#ff3ed856" />
+        <property name="size" type="vec2" value="100.000000,100.000000" />
+      </shape>
+      <shape id="102402618" label="Rectangle 2" startTime="0" endTime="2016" fillType="color" blending="mask" mediaFillMode="fill" s=".rect">
+        <transform lockAspectRatio="false">
+          <location value="10875.014648,540.000000,0.000000" />
+          <scale value="108.750145,4.330001" />
+        </transform>
+        <fillColor value="#ff7bbab4" />
+        <property name="size" type="vec2" value="100.000000,100.000000" />
+      </shape>
+    </scene>
+  </embedScene>
+  <shape id="102402587" label="GLOW BAR BLUE.MP4" startTime="12383" endTime="12832" fillType="media" blending="screen" fillVideo="content://media/external/video/media/1000013749" inTime="170" outTime="619" mediaFillMode="fill" s=".rect">
+    <transform>
+      <location value="540.000000,540.000000,0.000000" />
+      <scale value="1.796296,1.796296" />
+      <opacity>
+        <kf t="0.351893" v="1.000000" />
+        <kf t="1.000000" v="0.000000" />
+        <kf t="0.685969" v="0.093750" />
+      </opacity>
+    </transform>
+    <effect id="com.alightcreative.effects.deepglow" hidden="true" locallyApplied="true">
+      <property name="strength" type="float" value="0.150000" />
+      <property name="rrr" type="float" value="1.210000" />
+      <property name="satvib" type="vec2" value="0.000000,1.000000" />
+      <property name="hue" type="float" value="360.000000" />
+      <property name="oalpha" type="float" value="1.000000" />
+      <property name="calpha" type="float" value="1.000000" />
+      <property name="sshadow" type="bool" value="false" />
+      <property name="power" type="float" value="0.150000" />
+      <property name="alphaa" type="float" value="0.750000" />
+      <property name="cblend" type="bool" value="false" />
+      <property name="color" type="color" value="#ffaa0000" />
+      <property name="alpb" type="float" value="0.500000" />
+      <property name="thrs" type="bool" value="false" />
+      <property name="lowThreshold" type="float" value="0.000000" />
+      <property name="highThreshold" type="float" value="1.000000" />
+      <property name="feather" type="float" value="3.000000" />
+      <property name="iter" type="float" value="1.000000" />
+    </effect>
+    <property name="size" type="vec2" value="540.000000,303.500000" />
+  </shape>
+  <shape id="102402566" startTime="13000" endTime="13349" fillType="color" speed="0.973470" mediaFillMode="fill" s=".rect">
+    <transform>
+      <location value="540.000000,540.000000,0.000000" />
+      <scale value="5.400000,5.400000" />
+    </transform>
+    <fillColor value="#ffc24f3f" />
+    <effect id="com.alightcreative.effects.lift" locallyApplied="false">
+      <property name="fill" type="float" value="0.000000" />
+    </effect>
+    <effect id="com.alightcreative.effects.turbulentdisplace3" locallyApplied="false">
+      <property name="FIXTURB" type="bool" value="false" />
+      <property name="intensity" type="float">
+        <kf t="1.000000" v="0.000000" e="cubicBezier 0.0 0.0 0.43049803 1.0" />
+        <kf t="0.000000" v="0.069000" />
+      </property>
+      <property name="evolution" type="float" value="0.000000" />
+      <property name="direction" type="int" value="0" />
+      <property name="scale" type="float" value="2.560000" />
+      <property name="stretch" type="vec2" value="0.010000,1.000000" />
+      <property name="seed" type="float" value="0.000000" />
+      <property name="singleAxis" type="bool" value="true" />
+      <property name="screenSpace" type="bool" value="false" />
+      <property name="octaves" type="float" value="6.000000" />
+      <property name="offs" type="float" value="0.000000" />
+    </effect>
+    <property name="size" type="vec2" value="100.000000,100.000000" />
+  </shape>
+  <shape id="102402588" label="GLOW BAR BLUE.MP4" startTime="12983" endTime="13432" fillType="media" blending="screen" fillVideo="content://media/external/video/media/1000013749" inTime="170" outTime="619" mediaFillMode="fill" s=".rect">
+    <transform>
+      <location value="540.000000,540.000000,0.000000" />
+      <scale value="1.796296,1.796296" />
+      <opacity>
+        <kf t="0.351893" v="1.000000" />
+        <kf t="1.000000" v="0.000000" />
+        <kf t="0.685969" v="0.093750" />
+      </opacity>
+    </transform>
+    <effect id="com.alightcreative.effects.deepglow" hidden="true" locallyApplied="true">
+      <property name="strength" type="float" value="0.150000" />
+      <property name="rrr" type="float" value="1.210000" />
+      <property name="satvib" type="vec2" value="0.000000,1.000000" />
+      <property name="hue" type="float" value="360.000000" />
+      <property name="oalpha" type="float" value="1.000000" />
+      <property name="calpha" type="float" value="1.000000" />
+      <property name="sshadow" type="bool" value="false" />
+      <property name="power" type="float" value="0.150000" />
+      <property name="alphaa" type="float" value="0.750000" />
+      <property name="cblend" type="bool" value="false" />
+      <property name="color" type="color" value="#ffaa0000" />
+      <property name="alpb" type="float" value="0.500000" />
+      <property name="thrs" type="bool" value="false" />
+      <property name="lowThreshold" type="float" value="0.000000" />
+      <property name="highThreshold" type="float" value="1.000000" />
+      <property name="feather" type="float" value="3.000000" />
+      <property name="iter" type="float" value="1.000000" />
+    </effect>
+    <effect id="com.alightcreative.effects.hueshift" locallyApplied="true">
+      <property name="hue" type="float" value="516.000000" />
+    </effect>
+    <property name="size" type="vec2" value="540.000000,303.500000" />
+  </shape>
+  <shape id="102402589" label="GLOW BAR BLUE.MP4" startTime="13549" endTime="13998" fillType="media" blending="screen" fillVideo="content://media/external/video/media/1000013749" inTime="170" outTime="619" mediaFillMode="fill" s=".rect">
+    <transform>
+      <location value="540.000000,540.000000,0.000000" />
+      <scale value="1.796296,1.796296" />
+      <opacity>
+        <kf t="0.351893" v="1.000000" />
+        <kf t="1.000000" v="0.000000" />
+        <kf t="0.685969" v="0.093750" />
+      </opacity>
+    </transform>
+    <effect id="com.alightcreative.effects.deepglow" hidden="true" locallyApplied="true">
+      <property name="strength" type="float" value="0.150000" />
+      <property name="rrr" type="float" value="1.210000" />
+      <property name="satvib" type="vec2" value="0.000000,1.000000" />
+      <property name="hue" type="float" value="360.000000" />
+      <property name="oalpha" type="float" value="1.000000" />
+      <property name="calpha" type="float" value="1.000000" />
+      <property name="sshadow" type="bool" value="false" />
+      <property name="power" type="float" value="0.150000" />
+      <property name="alphaa" type="float" value="0.750000" />
+      <property name="cblend" type="bool" value="false" />
+      <property name="color" type="color" value="#ffaa0000" />
+      <property name="alpb" type="float" value="0.500000" />
+      <property name="thrs" type="bool" value="false" />
+      <property name="lowThreshold" type="float" value="0.000000" />
+      <property name="highThreshold" type="float" value="1.000000" />
+      <property name="feather" type="float" value="3.000000" />
+      <property name="iter" type="float" value="1.000000" />
+    </effect>
+    <effect id="com.alightcreative.effects.hueshift" locallyApplied="true">
+      <property name="hue" type="float" value="172.500000" />
+    </effect>
+    <property name="size" type="vec2" value="540.000000,303.500000" />
+  </shape>
+  <shape id="102402590" label="GLOW BAR BLUE.MP4" startTime="14116" endTime="14565" fillType="media" blending="screen" fillVideo="content://media/external/video/media/1000013749" inTime="170" outTime="619" mediaFillMode="fill" s=".rect">
+    <transform>
+      <location value="540.000000,540.000000,0.000000" />
+      <scale value="1.796296,1.796296" />
+      <opacity>
+        <kf t="0.351893" v="1.000000" />
+        <kf t="1.000000" v="0.000000" />
+        <kf t="0.685969" v="0.093750" />
+      </opacity>
+    </transform>
+    <effect id="com.alightcreative.effects.deepglow" hidden="true" locallyApplied="true">
+      <property name="strength" type="float" value="0.150000" />
+      <property name="rrr" type="float" value="1.210000" />
+      <property name="satvib" type="vec2" value="0.000000,1.000000" />
+      <property name="hue" type="float" value="360.000000" />
+      <property name="oalpha" type="float" value="1.000000" />
+      <property name="calpha" type="float" value="1.000000" />
+      <property name="sshadow" type="bool" value="false" />
+      <property name="power" type="float" value="0.150000" />
+      <property name="alphaa" type="float" value="0.750000" />
+      <property name="cblend" type="bool" value="false" />
+      <property name="color" type="color" value="#ffaa0000" />
+      <property name="alpb" type="float" value="0.500000" />
+      <property name="thrs" type="bool" value="false" />
+      <property name="lowThreshold" type="float" value="0.000000" />
+      <property name="highThreshold" type="float" value="1.000000" />
+      <property name="feather" type="float" value="3.000000" />
+      <property name="iter" type="float" value="1.000000" />
+    </effect>
+    <effect id="com.alightcreative.effects.hueshift" locallyApplied="true">
+      <property name="hue" type="float" value="185.000000" />
+    </effect>
+    <property name="size" type="vec2" value="540.000000,303.500000" />
+  </shape>
+  <shape id="102402591" label="GLOW BAR BLUE.MP4" startTime="14633" endTime="15082" fillType="media" blending="screen" fillVideo="content://media/external/video/media/1000013749" inTime="170" outTime="619" mediaFillMode="fill" s=".rect">
+    <transform>
+      <location value="540.000000,540.000000,0.000000" />
+      <scale value="1.796296,1.796296" />
+      <opacity>
+        <kf t="0.351893" v="1.000000" />
+        <kf t="1.000000" v="0.000000" />
+        <kf t="0.685969" v="0.093750" />
+      </opacity>
+    </transform>
+    <effect id="com.alightcreative.effects.deepglow" hidden="true" locallyApplied="true">
+      <property name="strength" type="float" value="0.150000" />
+      <property name="rrr" type="float" value="1.210000" />
+      <property name="satvib" type="vec2" value="0.000000,1.000000" />
+      <property name="hue" type="float" value="360.000000" />
+      <property name="oalpha" type="float" value="1.000000" />
+      <property name="calpha" type="float" value="1.000000" />
+      <property name="sshadow" type="bool" value="false" />
+      <property name="power" type="float" value="0.150000" />
+      <property name="alphaa" type="float" value="0.750000" />
+      <property name="cblend" type="bool" value="false" />
+      <property name="color" type="color" value="#ffaa0000" />
+      <property name="alpb" type="float" value="0.500000" />
+      <property name="thrs" type="bool" value="false" />
+      <property name="lowThreshold" type="float" value="0.000000" />
+      <property name="highThreshold" type="float" value="1.000000" />
+      <property name="feather" type="float" value="3.000000" />
+      <property name="iter" type="float" value="1.000000" />
+    </effect>
+    <effect id="com.alightcreative.effects.hueshift" locallyApplied="true">
+      <property name="hue" type="float" value="172.500000" />
+    </effect>
+    <property name="size" type="vec2" value="540.000000,303.500000" />
+  </shape>
+  <shape id="102402592" label="GLOW BAR BLUE.MP4" startTime="15166" endTime="15615" fillType="media" blending="screen" fillVideo="content://media/external/video/media/1000013749" inTime="170" outTime="619" mediaFillMode="fill" s=".rect">
+    <transform>
+      <location value="540.000000,540.000000,0.000000" />
+      <scale value="1.796296,1.796296" />
+      <opacity>
+        <kf t="0.351893" v="1.000000" />
+        <kf t="1.000000" v="0.000000" />
+        <kf t="0.685969" v="0.093750" />
+      </opacity>
+    </transform>
+    <effect id="com.alightcreative.effects.deepglow" hidden="true" locallyApplied="true">
+      <property name="strength" type="float" value="0.150000" />
+      <property name="rrr" type="float" value="1.210000" />
+      <property name="satvib" type="vec2" value="0.000000,1.000000" />
+      <property name="hue" type="float" value="360.000000" />
+      <property name="oalpha" type="float" value="1.000000" />
+      <property name="calpha" type="float" value="1.000000" />
+      <property name="sshadow" type="bool" value="false" />
+      <property name="power" type="float" value="0.150000" />
+      <property name="alphaa" type="float" value="0.750000" />
+      <property name="cblend" type="bool" value="false" />
+      <property name="color" type="color" value="#ffaa0000" />
+      <property name="alpb" type="float" value="0.500000" />
+      <property name="thrs" type="bool" value="false" />
+      <property name="lowThreshold" type="float" value="0.000000" />
+      <property name="highThreshold" type="float" value="1.000000" />
+      <property name="feather" type="float" value="3.000000" />
+      <property name="iter" type="float" value="1.000000" />
+    </effect>
+    <effect id="com.alightcreative.effects.hueshift" locallyApplied="true">
+      <property name="hue" type="float" value="185.000000" />
+    </effect>
+    <property name="size" type="vec2" value="540.000000,303.500000" />
+  </shape>
+  <shape id="102402568" startTime="15700" endTime="16032" fillType="color" speed="1.023316" mediaFillMode="fill" s=".rect">
+    <transform>
+      <location value="540.000000,540.000000,0.000000" />
+      <scale value="5.400000,5.400000" />
+    </transform>
+    <fillColor value="#ffc24f3f" />
+    <effect id="com.alightcreative.effects.lift" locallyApplied="false">
+      <property name="fill" type="float" value="0.000000" />
+    </effect>
+    <effect id="com.alightcreative.effects.turbulentdisplace3" locallyApplied="false">
+      <property name="FIXTURB" type="bool" value="false" />
+      <property name="intensity" type="float">
+        <kf t="1.000000" v="0.000000" e="cubicBezier 0.0 0.0 0.43049803 1.0" />
+        <kf t="0.000000" v="0.069000" />
+      </property>
+      <property name="evolution" type="float" value="0.000000" />
+      <property name="direction" type="int" value="0" />
+      <property name="scale" type="float" value="2.560000" />
+      <property name="stretch" type="vec2" value="0.010000,1.000000" />
+      <property name="seed" type="float" value="0.000000" />
+      <property name="singleAxis" type="bool" value="true" />
+      <property name="screenSpace" type="bool" value="false" />
+      <property name="octaves" type="float" value="6.000000" />
+      <property name="offs" type="float" value="0.000000" />
+    </effect>
+    <property name="size" type="vec2" value="100.000000,100.000000" />
+  </shape>
+  <shape id="102402593" label="GLOW BAR BLUE.MP4" startTime="15683" endTime="16132" fillType="media" blending="screen" fillVideo="content://media/external/video/media/1000013749" inTime="170" outTime="619" mediaFillMode="fill" s=".rect">
+    <transform>
+      <location value="540.000000,540.000000,0.000000" />
+      <scale value="1.796296,1.796296" />
+      <opacity>
+        <kf t="0.351893" v="1.000000" />
+        <kf t="1.000000" v="0.000000" />
+        <kf t="0.685969" v="0.093750" />
+      </opacity>
+    </transform>
+    <effect id="com.alightcreative.effects.deepglow" hidden="true" locallyApplied="true">
+      <property name="strength" type="float" value="0.150000" />
+      <property name="rrr" type="float" value="1.210000" />
+      <property name="satvib" type="vec2" value="0.000000,1.000000" />
+      <property name="hue" type="float" value="360.000000" />
+      <property name="oalpha" type="float" value="1.000000" />
+      <property name="calpha" type="float" value="1.000000" />
+      <property name="sshadow" type="bool" value="false" />
+      <property name="power" type="float" value="0.150000" />
+      <property name="alphaa" type="float" value="0.750000" />
+      <property name="cblend" type="bool" value="false" />
+      <property name="color" type="color" value="#ffaa0000" />
+      <property name="alpb" type="float" value="0.500000" />
+      <property name="thrs" type="bool" value="false" />
+      <property name="lowThreshold" type="float" value="0.000000" />
+      <property name="highThreshold" type="float" value="1.000000" />
+      <property name="feather" type="float" value="3.000000" />
+      <property name="iter" type="float" value="1.000000" />
+    </effect>
+    <effect id="com.alightcreative.effects.hueshift" locallyApplied="true">
+      <property name="hue" type="float" value="172.500000" />
+    </effect>
+    <property name="size" type="vec2" value="540.000000,303.500000" />
+  </shape>
+  <shape id="102402594" label="GLOW BAR BLUE.MP4" startTime="16183" endTime="16748" fillType="media" blending="screen" fillVideo="content://media/external/video/media/1000013749" inTime="170" outTime="619" speed="0.794690" mediaFillMode="fill" s=".rect">
+    <transform>
+      <location value="540.000000,540.000000,0.000000" />
+      <scale value="1.796296,1.796296" />
+      <opacity>
+        <kf t="0.351893" v="1.000000" />
+        <kf t="1.000000" v="0.000000" />
+        <kf t="0.685969" v="0.093750" />
+      </opacity>
+    </transform>
+    <effect id="com.alightcreative.effects.deepglow" hidden="true" locallyApplied="true">
+      <property name="strength" type="float" value="0.150000" />
+      <property name="rrr" type="float" value="1.210000" />
+      <property name="satvib" type="vec2" value="0.000000,1.000000" />
+      <property name="hue" type="float" value="360.000000" />
+      <property name="oalpha" type="float" value="1.000000" />
+      <property name="calpha" type="float" value="1.000000" />
+      <property name="sshadow" type="bool" value="false" />
+      <property name="power" type="float" value="0.150000" />
+      <property name="alphaa" type="float" value="0.750000" />
+      <property name="cblend" type="bool" value="false" />
+      <property name="color" type="color" value="#ffaa0000" />
+      <property name="alpb" type="float" value="0.500000" />
+      <property name="thrs" type="bool" value="false" />
+      <property name="lowThreshold" type="float" value="0.000000" />
+      <property name="highThreshold" type="float" value="1.000000" />
+      <property name="feather" type="float" value="3.000000" />
+      <property name="iter" type="float" value="1.000000" />
+    </effect>
+    <effect id="com.alightcreative.effects.hueshift" locallyApplied="true">
+      <property name="hue" type="float" value="185.000000" />
+    </effect>
+    <property name="size" type="vec2" value="540.000000,303.500000" />
+  </shape>
+  <shape id="102402570" startTime="16783" endTime="17115" fillType="color" speed="1.023316" mediaFillMode="fill" s=".rect">
+    <transform>
+      <location value="540.000000,540.000000,0.000000" />
+      <scale value="5.400000,5.400000" />
+    </transform>
+    <fillColor value="#ffc24f3f" />
+    <effect id="com.alightcreative.effects.lift" locallyApplied="false">
+      <property name="fill" type="float" value="0.000000" />
+    </effect>
+    <effect id="com.alightcreative.effects.turbulentdisplace3" locallyApplied="false">
+      <property name="FIXTURB" type="bool" value="false" />
+      <property name="intensity" type="float">
+        <kf t="1.000000" v="0.000000" e="cubicBezier 0.0 0.0 0.43049803 1.0" />
+        <kf t="0.000000" v="0.069000" />
+      </property>
+      <property name="evolution" type="float" value="0.000000" />
+      <property name="direction" type="int" value="0" />
+      <property name="scale" type="float" value="2.560000" />
+      <property name="stretch" type="vec2" value="0.010000,1.000000" />
+      <property name="seed" type="float" value="0.000000" />
+      <property name="singleAxis" type="bool" value="true" />
+      <property name="screenSpace" type="bool" value="false" />
+      <property name="octaves" type="float" value="6.000000" />
+      <property name="offs" type="float" value="0.000000" />
+    </effect>
+    <property name="size" type="vec2" value="100.000000,100.000000" />
+  </shape>
+  <shape id="102402595" label="GLOW BAR BLUE.MP4" startTime="16749" endTime="17198" fillType="media" blending="screen" fillVideo="content://media/external/video/media/1000013749" inTime="170" outTime="619" mediaFillMode="fill" s=".rect">
+    <transform>
+      <location value="540.000000,542.500000,0.000000" />
+      <scale value="1.796296,1.796296" />
+      <opacity>
+        <kf t="0.351893" v="1.000000" />
+        <kf t="1.000000" v="0.000000" />
+        <kf t="0.685969" v="0.093750" />
+      </opacity>
+    </transform>
+    <effect id="com.alightcreative.effects.deepglow" hidden="true" locallyApplied="true">
+      <property name="strength" type="float" value="0.150000" />
+      <property name="rrr" type="float" value="1.210000" />
+      <property name="satvib" type="vec2" value="0.000000,1.000000" />
+      <property name="hue" type="float" value="360.000000" />
+      <property name="oalpha" type="float" value="1.000000" />
+      <property name="calpha" type="float" value="1.000000" />
+      <property name="sshadow" type="bool" value="false" />
+      <property name="power" type="float" value="0.150000" />
+      <property name="alphaa" type="float" value="0.750000" />
+      <property name="cblend" type="bool" value="false" />
+      <property name="color" type="color" value="#ffaa0000" />
+      <property name="alpb" type="float" value="0.500000" />
+      <property name="thrs" type="bool" value="false" />
+      <property name="lowThreshold" type="float" value="0.000000" />
+      <property name="highThreshold" type="float" value="1.000000" />
+      <property name="feather" type="float" value="3.000000" />
+      <property name="iter" type="float" value="1.000000" />
+    </effect>
+    <effect id="com.alightcreative.effects.hueshift" locallyApplied="true">
+      <property name="hue" type="float" value="185.000000" />
+    </effect>
+    <property name="size" type="vec2" value="540.000000,303.500000" />
+  </shape>
+  <shape id="102402596" label="GLOW BAR BLUE.MP4" startTime="17299" endTime="17748" fillType="media" blending="screen" fillVideo="content://media/external/video/media/1000013749" inTime="170" outTime="619" mediaFillMode="fill" s=".rect">
+    <transform>
+      <location value="540.000000,540.000000,0.000000" />
+      <scale value="1.796296,1.796296" />
+      <opacity>
+        <kf t="0.351893" v="1.000000" />
+        <kf t="1.000000" v="0.000000" />
+        <kf t="0.685969" v="0.093750" />
+      </opacity>
+    </transform>
+    <effect id="com.alightcreative.effects.deepglow" hidden="true" locallyApplied="true">
+      <property name="strength" type="float" value="0.150000" />
+      <property name="rrr" type="float" value="1.210000" />
+      <property name="satvib" type="vec2" value="0.000000,1.000000" />
+      <property name="hue" type="float" value="360.000000" />
+      <property name="oalpha" type="float" value="1.000000" />
+      <property name="calpha" type="float" value="1.000000" />
+      <property name="sshadow" type="bool" value="false" />
+      <property name="power" type="float" value="0.150000" />
+      <property name="alphaa" type="float" value="0.750000" />
+      <property name="cblend" type="bool" value="false" />
+      <property name="color" type="color" value="#ffaa0000" />
+      <property name="alpb" type="float" value="0.500000" />
+      <property name="thrs" type="bool" value="false" />
+      <property name="lowThreshold" type="float" value="0.000000" />
+      <property name="highThreshold" type="float" value="1.000000" />
+      <property name="feather" type="float" value="3.000000" />
+      <property name="iter" type="float" value="1.000000" />
+    </effect>
+    <effect id="com.alightcreative.effects.hueshift" locallyApplied="true">
+      <property name="hue" type="float" value="172.500000" />
+    </effect>
+    <property name="size" type="vec2" value="540.000000,303.500000" />
+  </shape>
+  <shape id="102402597" label="GLOW BAR BLUE.MP4" startTime="17916" endTime="18365" fillType="media" blending="screen" fillVideo="content://media/external/video/media/1000013749" inTime="170" outTime="619" mediaFillMode="fill" s=".rect">
+    <transform>
+      <location value="540.000000,540.000000,0.000000" />
+      <scale value="1.796296,1.796296" />
+      <opacity>
+        <kf t="0.351893" v="1.000000" />
+        <kf t="1.000000" v="0.000000" />
+        <kf t="0.685969" v="0.093750" />
+      </opacity>
+    </transform>
+    <effect id="com.alightcreative.effects.deepglow" hidden="true" locallyApplied="true">
+      <property name="strength" type="float" value="0.150000" />
+      <property name="rrr" type="float" value="1.210000" />
+      <property name="satvib" type="vec2" value="0.000000,1.000000" />
+      <property name="hue" type="float" value="360.000000" />
+      <property name="oalpha" type="float" value="1.000000" />
+      <property name="calpha" type="float" value="1.000000" />
+      <property name="sshadow" type="bool" value="false" />
+      <property name="power" type="float" value="0.150000" />
+      <property name="alphaa" type="float" value="0.750000" />
+      <property name="cblend" type="bool" value="false" />
+      <property name="color" type="color" value="#ffaa0000" />
+      <property name="alpb" type="float" value="0.500000" />
+      <property name="thrs" type="bool" value="false" />
+      <property name="lowThreshold" type="float" value="0.000000" />
+      <property name="highThreshold" type="float" value="1.000000" />
+      <property name="feather" type="float" value="3.000000" />
+      <property name="iter" type="float" value="1.000000" />
+    </effect>
+    <effect id="com.alightcreative.effects.hueshift" locallyApplied="true">
+      <property name="hue" type="float" value="185.000000" />
+    </effect>
+    <property name="size" type="vec2" value="540.000000,303.500000" />
+  </shape>
+  <shape id="102402598" label="GLOW BAR BLUE.MP4" startTime="18466" endTime="18915" fillType="media" blending="screen" fillVideo="content://media/external/video/media/1000013749" inTime="170" outTime="619" mediaFillMode="fill" s=".rect">
+    <transform>
+      <location value="540.000000,540.000000,0.000000" />
+      <scale value="1.796296,1.796296" />
+      <opacity>
+        <kf t="0.351893" v="1.000000" />
+        <kf t="1.000000" v="0.000000" />
+        <kf t="0.685969" v="0.093750" />
+      </opacity>
+    </transform>
+    <effect id="com.alightcreative.effects.deepglow" hidden="true" locallyApplied="true">
+      <property name="strength" type="float" value="0.150000" />
+      <property name="rrr" type="float" value="1.210000" />
+      <property name="satvib" type="vec2" value="0.000000,1.000000" />
+      <property name="hue" type="float" value="360.000000" />
+      <property name="oalpha" type="float" value="1.000000" />
+      <property name="calpha" type="float" value="1.000000" />
+      <property name="sshadow" type="bool" value="false" />
+      <property name="power" type="float" value="0.150000" />
+      <property name="alphaa" type="float" value="0.750000" />
+      <property name="cblend" type="bool" value="false" />
+      <property name="color" type="color" value="#ffaa0000" />
+      <property name="alpb" type="float" value="0.500000" />
+      <property name="thrs" type="bool" value="false" />
+      <property name="lowThreshold" type="float" value="0.000000" />
+      <property name="highThreshold" type="float" value="1.000000" />
+      <property name="feather" type="float" value="3.000000" />
+      <property name="iter" type="float" value="1.000000" />
+    </effect>
+    <effect id="com.alightcreative.effects.hueshift" locallyApplied="true">
+      <property name="hue" type="float" value="185.000000" />
+    </effect>
+    <property name="size" type="vec2" value="540.000000,303.500000" />
+  </shape>
+</scene>
