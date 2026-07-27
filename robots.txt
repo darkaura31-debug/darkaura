@@ -2,4 +2,4 @@ User-agent: *
 
 Allow: /
 
-Sitemap: https://darkaura31-debug.github.io/darkaura/sitemap.xml
+Sitemap: https://darkauraxml.com/sitemap.xml
